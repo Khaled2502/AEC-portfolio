@@ -4,7 +4,6 @@ import { useTheme } from "../contexts/ThemeContext";
 import { useLanguage } from "../contexts/LanguageContext";
 import { motion } from "framer-motion";
 import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
-import logo from "@/assets/images/logo.png";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -49,7 +48,7 @@ const Navbar = () => {
             className="flex items-center cursor-pointer p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-800 transition duration-300"
             aria-label="Home"
           >
-            <img src={logo} alt="KH Logo" className="h-16 w-auto" />
+            <img src="/assets/images/logo.png" alt="KH Logo" className="h-16 w-auto" />
           </motion.a>
 
           {/* Desktop Navigation */}
