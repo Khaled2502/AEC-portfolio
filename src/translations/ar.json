@@ -1,0 +1,62 @@
+{
+  "translation": {
+    "nav": {
+      "home": "الرئيسية",
+      "about": "عني",
+      "services": "الخدمات",
+      "projects": "المشاريع",
+      "contact": "تواصل"
+    },
+    "hero": {
+      "title": "أنا خالد حسين",
+      "subtitle": "مطور AEC — أجمع بين الهندسة والبرمجة",
+      "cta": {
+        "projects": "تصفح المشاريع",
+        "contact": "تواصل معي"
+      }
+    },
+    "about": {
+      "title": "نبذة عني",
+      "description": "أقوم ببناء أدوات ذكية تساعد المهندسين على التصميم بشكل أفضل",
+      "skills": {
+        "bim": "تطوير BIM",
+        "automation": "الأتمتة",
+        "programming": "C# / Python / Dynamo / Revit API",
+        "engineering": "مبادئ هندسة البرمجيات"
+      }
+    },
+    "services": {
+      "title": "الخدمات",
+      "items": {
+        "bim": {
+          "title": "أدوات BIM مخصصة",
+          "description": "حلول مصممة خصيصاً لتدفق العمل وأتمتة BIM"
+        },
+        "automation": {
+          "title": "برامج أتمتة AEC",
+          "description": "نصوص برمجية فعالة لأتمتة المهام المتكررة"
+        },
+        "integration": {
+          "title": "تكامل البرامج ولوحات المعلومات",
+          "description": "دمج سلس لأدوات برمجيات AEC"
+        }
+      }
+    },
+    "projects": {
+      "title": "المشاريع",
+      "viewDetails": "عرض التفاصيل"
+    },
+    "contact": {
+      "title": "تواصل معي",
+      "form": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "message": "الرسالة",
+        "send": "إرسال الرسالة"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 خالد حسين. جميع الحقوق محفوظة."
+    }
+  }
+}

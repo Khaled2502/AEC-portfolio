@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap");
+
+  :root {
+    --primary: #00a8ff;
+    --accent: #00ffd1;
+    --dark-bg: #0b0f19;
+    --light-bg: #f8fafc;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-inter dark:bg-darkBg bg-lightBg text-textDark dark:text-textLight;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-orbitron;
+  }
+}
+
+@layer components {
+  .neon-glow {
+    @apply shadow-neon transition-shadow duration-300;
+  }
+
+  .neon-button {
+    @apply px-6 py-2 rounded-lg bg-primary text-white font-semibold hover:neon-glow transition-all duration-300;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+  }
+}

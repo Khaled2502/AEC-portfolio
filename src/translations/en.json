@@ -1,0 +1,62 @@
+{
+  "translation": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "I'm Khaled Hussein",
+      "subtitle": "AEC Developer — bridging engineering and software",
+      "cta": {
+        "projects": "View Projects",
+        "contact": "Contact Me"
+      }
+    },
+    "about": {
+      "title": "About Me",
+      "description": "I build intelligent tools that help engineers design smarter.",
+      "skills": {
+        "bim": "BIM Development",
+        "automation": "Automation",
+        "programming": "C# / Python / Dynamo / Revit API",
+        "engineering": "Software Engineering Principles"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "items": {
+        "bim": {
+          "title": "Custom BIM Tools",
+          "description": "Tailored solutions for BIM workflows and automation"
+        },
+        "automation": {
+          "title": "AEC Automation Scripts",
+          "description": "Efficient scripts to automate repetitive tasks"
+        },
+        "integration": {
+          "title": "Software Integration & Dashboards",
+          "description": "Seamless integration of AEC software tools"
+        }
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "viewDetails": "View Details"
+    },
+    "contact": {
+      "title": "Contact",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 Khaled Hussein. All rights reserved."
+    }
+  }
+}
