@@ -23,6 +23,21 @@
         "automation": "الأتمتة",
         "programming": "C# / Python / Dynamo / Revit API",
         "engineering": "مبادئ هندسة البرمجيات"
+      },
+      "experience": {
+        "bimDev": {
+          "title": "تطوير BIM",
+          "years": "خبرة أكثر من 5 سنوات",
+          "description": "متخصص في إنشاء أدوات مخصصة وحلول أتمتة لتحسين سير عمل الـ BIM."
+        },
+        "software": {
+          "title": "هندسة البرمجيات",
+          "stack": "تقنيات حديثة",
+          "description": "أمتلك خبرة في عدة لغات برمجة وأطبق أفضل ممارسات تطوير البرمجيات الحديثة."
+        }
+      },
+      "technical": {
+        "title": "المهارات التقنية"
       }
     },
     "services": {

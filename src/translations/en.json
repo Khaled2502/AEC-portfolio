@@ -23,6 +23,21 @@
         "automation": "Automation",
         "programming": "C# / Python / Dynamo / Revit API",
         "engineering": "Software Engineering Principles"
+      },
+      "experience": {
+        "bimDev": {
+          "title": "BIM Development",
+          "years": "5+ Years Experience",
+          "description": "Specialized in creating custom tools and automation solutions for BIM workflows."
+        },
+        "software": {
+          "title": "Software Engineering",
+          "stack": "Modern Tech Stack",
+          "description": "Proficient in multiple programming languages and modern software development practices."
+        }
+      },
+      "technical": {
+        "title": "Technical Proficiency"
       }
     },
     "services": {

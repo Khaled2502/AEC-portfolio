@@ -89,14 +89,17 @@ const AboutSection = () => {
                 <div className="h-10 w-10 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center text-white">
                   <FiCode className="w-6 h-6" />
                 </div>
-                <div className="ml-4">
-                  <h4 className="font-semibold">BIM Development</h4>
-                  <p className="text-sm text-grayMuted">5+ Years Experience</p>
+                <div className="ms-4">
+                  <h4 className="font-semibold">
+                    {t("about.experience.bimDev.title")}
+                  </h4>
+                  <p className="text-sm text-grayMuted">
+                    {t("about.experience.bimDev.years")}
+                  </p>
                 </div>
               </div>
               <p className="text-grayMuted">
-                Specialized in creating custom tools and automation solutions
-                for BIM workflows.
+                {t("about.experience.bimDev.description")}.
               </p>
             </div>
 
@@ -105,21 +108,24 @@ const AboutSection = () => {
                 <div className="h-10 w-10 rounded-full bg-gradient-to-r from-accent to-primary flex items-center justify-center text-white">
                   <FiCpu className="w-6 h-6" />
                 </div>
-                <div className="ml-4">
-                  <h4 className="font-semibold">Software Engineering</h4>
-                  <p className="text-sm text-grayMuted">Modern Tech Stack</p>
+                <div className="ms-4">
+                  <h4 className="font-semibold">
+                    {t("about.experience.software.title")}
+                  </h4>
+                  <p className="text-sm text-grayMuted">
+                    {t("about.experience.software.stack")}
+                  </p>
                 </div>
               </div>
               <p className="text-grayMuted">
-                Proficient in multiple programming languages and modern software
-                development practices.
+                {t("about.experience.software.description")}
               </p>
             </div>
           </div>
 
           {/* Skills Graph */}
           <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
-            <h4 className="font-semibold mb-6">Technical Proficiency</h4>
+            <h4 className="font-semibold mb-6">{t("about.technical.title")}</h4>
             {["C#", "Python", "Revit API", "JavaScript"].map((skill, index) => (
               <div key={skill} className="mb-4">
                 <div className="flex justify-between mb-2">

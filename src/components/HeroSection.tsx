@@ -72,7 +72,7 @@ const HeroSection = () => {
           {/* Social Links */}
           <motion.div
             variants={itemVariants}
-            className="flex justify-center space-x-6"
+            className="flex justify-center items-center gap-6 direction-ltr"
           >
             <a
               href="https://github.com/yourusername"
